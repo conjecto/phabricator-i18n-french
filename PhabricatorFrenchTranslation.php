@@ -286,7 +286,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  '%s After' => null,
 
 		  // src/applications/ponder/query/PonderQuestionSearchEngine.php:162
-		  '%s Answer(s)' => null,
+		  '%s Answer(s)' => "% réponse(s)",
 
 		  // src/applications/base/PhabricatorApplication.php:37
 		  '%s Application' => null,
@@ -295,7 +295,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  '%s Approval (%d / %d)' => null,
 
 		  // src/applications/maniphest/application/PhabricatorManiphestApplication.php:81
-		  '%s Assigned Task(s)' => null,
+		  '%s Assigned Task(s)' => "%s tâche(s) assignée(s)",
 
 		  // src/applications/diffusion/doorkeeper/DiffusionDoorkeeperCommitFeedStoryPublisher.php:180
 		  '%s Audit' => null,
@@ -5530,7 +5530,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/applications/search/controller/PhabricatorApplicationSearchController.php:192
 		  // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:457
 		  // src/view/page/menu/PhabricatorMainMenuSearchView.php:170
-		  'Advanced Search' => null,
+		  'Advanced Search' => "Recherche avancée",
 
 		  // src/applications/diffusion/conduit/DiffusionLookSoonConduitAPIMethod.php:16
 		  'Advises Phabricator to look for new commits in a repository as soon as possible. This advice is most useful if you have just pushed new commits to that repository.' => null,
@@ -5867,7 +5867,7 @@ final class PhabricatorVeryWowEnglishTranslation
 
 		  // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:241
 		  // src/applications/project/controller/PhabricatorProjectBoardViewController.php:591
-		  'All Tasks' => null,
+		  'All Tasks' => "Toutes les tâches",
 
 		  // src/applications/maniphest/controller/ManiphestReportController.php:220
 		  'All Time' => null,
@@ -5882,7 +5882,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  'All URLs' => null,
 
 		  // src/applications/policy/query/PhabricatorPolicyQuery.php:174
-		  'All Users' => null,
+		  'All Users' => "Tous les utilisateurs",
 
 		  // src/applications/drydock/worker/DrydockLeaseUpdateWorker.php:226
 		  'All blueprints failed to allocate a suitable new resource when trying to allocate lease "%s".' => null,
@@ -6965,29 +6965,29 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/applications/maniphest/storage/ManiphestTransaction.php:288
 		  // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:235
 		  // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:286
-		  'Assigned' => null,
+		  'Assigned' => 'Assignée',
 
 		  // src/applications/maniphest/herald/ManiphestTaskAssignHeraldAction.php:56
-		  'Assigned Task' => null,
+		  'Assigned Task' => "Tâche assignée",
 
 		  // src/applications/home/controller/PhabricatorHomeMainController.php:274
-		  'Assigned Tasks' => null,
+		  'Assigned Tasks' => "Tâches assignées",
 
 		  // src/applications/maniphest/controller/ManiphestTaskDetailController.php:234
 		  // src/applications/maniphest/engineextension/ManiphestHovercardEngineExtension.php:38
 		  // src/applications/maniphest/editor/ManiphestEditEngine.php:180
 		  // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:49
-		  'Assigned To' => null,
+		  'Assigned To' => "Assignée à",
 
 		  // src/applications/maniphest/herald/ManiphestTaskAssignHeraldAction.php:68
-		  'Assigned task to: %s.' => null,
+		  'Assigned task to: %s.' => "Tâche assignée à: %s.",
 
 		  // src/applications/uiexample/examples/PHUIHovercardUIExample.php:47
-		  'Assigned to' => null,
+		  'Assigned to' => "Assignée à",
 
 		  // src/applications/search/controller/PhabricatorSearchAttachController.php:268
 		  // src/applications/project/controller/PhabricatorProjectBoardViewController.php:595
-		  'Assigned to Me' => null,
+		  'Assigned to Me' => "Assignée à moi",
 
 		  // src/applications/maniphest/view/ManiphestTaskListView.php:69
 		  // src/applications/nuance/github/NuanceGitHubRawEvent.php:296
@@ -11734,7 +11734,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  'Create a Space' => null,
 
 		  // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:390
-		  'Create a Task' => null,
+		  'Create a Task' => "Créer une tâche",
 
 		  // src/applications/diffusion/editor/DiffusionURIEditEngine.php:159
 		  'Create a URI in a given repository. This transaction type must be present when creating a new URI and must not be present when editing an existing URI.' => null,
@@ -13141,7 +13141,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/applications/pholio/view/PholioUploadedImageView.php:39
 		  // src/applications/pholio/herald/PholioMockDescriptionHeraldField.php:9
 		  // src/infrastructure/contentsource/PhabricatorContentSourceModule.php:36
-		  'Description' => null,
+		  'Description' => 'Description',
 
 		  // src/applications/maniphest/editor/ManiphestEditEngine.php:241
 		  'Description Preview' => null,
@@ -14938,14 +14938,14 @@ final class PhabricatorVeryWowEnglishTranslation
 		  'Edit Pull Request' => null,
 
 		  // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:452
-		  'Edit Queries...' => null,
+		  'Edit Queries...' => "Editer les requêtes...",
 
 		  // src/applications/search/controller/PhabricatorApplicationSearchController.php:203
-		  'Edit Query' => null,
+		  'Edit Query' => "Editer la requête",
 
 		  // src/applications/ponder/controller/PonderQuestionEditController.php:185
 		  // src/applications/ponder/controller/PonderQuestionViewController.php:158
-		  'Edit Question' => null,
+		  'Edit Question' => "Editer la question",
 
 		  // src/applications/nuance/controller/NuanceQueueViewController.php:67
 		  // src/applications/nuance/editor/NuanceQueueEditEngine.php:49
@@ -15093,7 +15093,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/applications/phame/controller/blog/PhameBlogManageController.php:110
 		  // src/applications/spaces/controller/PhabricatorSpacesViewController.php:88
 		  // src/view/form/control/AphrontFormPolicyControl.php:79
-		  'Editable By' => null,
+		  'Editable By' => "Editable par",
 
 		  // src/applications/maniphest/storage/ManiphestTransaction.php:280
 		  // src/applications/phriction/storage/PhrictionTransaction.php:130
@@ -17237,10 +17237,10 @@ final class PhabricatorVeryWowEnglishTranslation
 		  'Full-Text Search' => null,
 
 		  // src/applications/project/controller/PhabricatorProjectBoardViewController.php:771
-		  'Fullscreen' => null,
+		  'Fullscreen' => "Plein écran",
 
 		  // src/view/form/control/PhabricatorRemarkupControl.php:175
-		  'Fullscreen Mode' => null,
+		  'Fullscreen Mode' => "Mode plein écran",
 
 		  // src/applications/search/engineextension/PhabricatorFulltextIndexEngineExtension.php:9
 		  'Fulltext Engine' => null,
@@ -24683,7 +24683,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/applications/config/controller/PhabricatorConfigClusterRepositoriesController.php:79
 		  // src/applications/pholio/controller/PholioMockViewController.php:52
 		  // src/applications/pholio/storage/PholioMock.php:170
-		  'Open' => null,
+		  'Open' => 'Ouvert',
 
 		  // src/applications/audit/query/PhabricatorCommitSearchEngine.php:87
 		  'Open Audits' => null,
@@ -24734,7 +24734,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/applications/search/query/PhabricatorSearchApplicationSearchEngine.php:179
 		  // src/applications/people/engine/PhabricatorPeopleProfilePanelEngine.php:41
 		  // src/applications/project/controller/PhabricatorProjectBoardViewController.php:590
-		  'Open Tasks' => null,
+		  'Open Tasks' => "Tâches ouvertes",
 
 		  // src/applications/maniphest/controller/ManiphestReportController.php:469
 		  'Open Tasks by Project and Priority (%s)' => null,
@@ -26686,7 +26686,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php:321
 		  // src/applications/config/module/PhabricatorConfigRequestExceptionHandlerModule.php:31
 		  // src/applications/config/module/PhabricatorConfigSiteModule.php:30
-		  'Priority' => null,
+		  'Priority' => 'Priorité',
 
 		  // src/applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php:325
 		  'Priority Type' => null,
@@ -27409,7 +27409,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  'Quantity must be a positive integer.' => null,
 
 		  // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:440
-		  'Queries' => null,
+		  'Queries' => "Requêtes",
 
 		  // src/applications/uiexample/examples/PhabricatorListFilterUIExample.php:25
 		  // src/applications/dashboard/paneltype/PhabricatorDashboardQueryPanelType.php:27
@@ -27417,7 +27417,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/applications/search/controller/PhabricatorSearchEditController.php:83
 		  // src/applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php:298
 		  // src/applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php:308
-		  'Query' => null,
+		  'Query' => "Requête",
 
 		  // src/infrastructure/query/policy/PhabricatorCursorPagedPolicyAwareQuery.php:651
 		  'Query "%s" does not support a builtin order "%s". Supported orders are: %s.' => null,
@@ -28894,7 +28894,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/applications/maniphest/controller/ManiphestReportController.php:49
 		  // src/applications/maniphest/controller/ManiphestController.php:21
 		  // src/applications/maniphest/controller/ManiphestController.php:22
-		  'Reports' => null,
+		  'Reports' => "Rapports",
 
 		  // src/applications/config/controller/PhabricatorConfigClusterRepositoriesController.php:230
 		  'Repos' => null,
@@ -29418,7 +29418,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/view/form/control/AphrontFormControl.php:197
 		  // src/infrastructure/customfield/standard/PhabricatorStandardCustomField.php:362
 		  // src/infrastructure/customfield/standard/PhabricatorStandardCustomField.php:367
-		  'Required' => null,
+		  'Required' => "Obligatoire",
 
 		  // src/applications/legalpad/herald/LegalpadRequireSignatureHeraldAction.php:102
 		  'Required %s signature(s): %s.' => null,
@@ -29528,7 +29528,7 @@ final class PhabricatorVeryWowEnglishTranslation
 
 		  // src/applications/ponder/constants/PonderQuestionStatus.php:32
 		  // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:76
-		  'Resolved' => null,
+		  'Resolved' => 'Résolu',
 
 		  // src/applications/config/controller/PhabricatorConfigIssueViewController.php:27
 		  'Resolved Issue' => null,
@@ -29893,7 +29893,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  'Review Changes (Blocking)' => null,
 
 		  // src/applications/differential/application/PhabricatorDifferentialApplication.php:14
-		  'Review Code' => null,
+		  'Review Code' => 'Examiner le code',
 
 		  // src/applications/pholio/application/PhabricatorPholioApplication.php:14
 		  'Review Mocks and Design' => null,
@@ -30508,7 +30508,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/applications/search/controller/PhabricatorApplicationSearchController.php:394
 		  // src/applications/search/controller/PhabricatorApplicationSearchController.php:399
 		  // src/view/page/menu/PhabricatorMainMenuSearchView.php:142
-		  'Saved Queries' => null,
+		  'Saved Queries' => "Requêtes enregistrées",
 
 		  // src/applications/policy/management/PhabricatorPolicyManagementUnlockWorkflow.php:79
 		  'Saved application.' => null,
@@ -30559,7 +30559,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/view/page/menu/PhabricatorMainMenuSearchView.php:67
 		  // src/view/page/menu/PhabricatorMainMenuSearchView.php:84
 		  // src/view/page/menu/PhabricatorMainMenuSearchView.php:116
-		  'Search' => null,
+		  'Search' => 'Rechercher',
 
 		  // src/applications/diffusion/conduit/DiffusionSearchQueryConduitAPIMethod.php:11
 		  'Search (grep) a repository at a specific path and commit.' => null,
@@ -32772,7 +32772,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/applications/pholio/query/PholioMockSearchEngine.php:28
 		  // src/infrastructure/sms/management/PhabricatorSMSManagementListOutboundWorkflow.php:39
 		  // src/infrastructure/storage/management/workflow/PhabricatorStorageManagementStatusWorkflow.php:31
-		  'Status' => null,
+		  'Status' => 'Statut',
 
 		  // src/applications/maniphest/constants/ManiphestTaskStatus.php:305
 		  'Status "%s" is marked as default, but it is a closed status. The default status should be an open status.' => null,
@@ -33217,7 +33217,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/applications/phurl/controller/PhabricatorPhurlURLEditController.php:197
 		  // src/applications/differential/customfield/DifferentialSubscribersField.php:15
 		  // src/applications/pholio/controller/PholioMockEditController.php:325
-		  'Subscribers' => null,
+		  'Subscribers' => "Abonnés",
 
 		  // src/applications/subscriptions/policyrule/PhabricatorSubscriptionsSubscribersPolicyRule.php:18
 		  'Subscribers can take this action.' => null,
@@ -33550,7 +33550,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  'Target %d' => null,
 
 		  // src/applications/maniphest/editor/ManiphestEditEngine.php:49
-		  'Task' => null,
+		  'Task' => "Tâche",
 
 		  // src/infrastructure/daemon/workers/storage/PhabricatorWorkerActiveTask.php:159
 		  'Task % has exceeded the maximum number of failures (%d).' => null,
@@ -33662,7 +33662,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  'Tasks To Merge' => null,
 
 		  // src/applications/maniphest/application/PhabricatorManiphestApplication.php:10
-		  'Tasks and Bugs' => null,
+		  'Tasks and Bugs' => "Tâches et bugs",
 
 		  // src/infrastructure/daemon/workers/__tests__/PhabricatorWorkerTestCase.php:46
 		  'Tasks not previously leased should lease before previously leased tasks.' => null,
@@ -36975,7 +36975,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/applications/phame/editor/PhamePostEditEngine.php:92
 		  // src/applications/paste/editor/PhabricatorPasteEditEngine.php:73
 		  // src/applications/pholio/view/PholioUploadedImageView.php:32
-		  'Title' => null,
+		  'Titre' => null,
 
 		  // src/applications/uiexample/examples/PHUIFeedStoryExample.php:143
 		  'Title / Text Story' => null,
@@ -39709,7 +39709,7 @@ final class PhabricatorVeryWowEnglishTranslation
 		  'Use Larger Font Size' => null,
 
 		  // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:400
-		  'Use Maniphest to track bugs, features, todos, or anything else you need to get done. Tasks assigned to you will appear here.' => null,
+		  'Use Maniphest to track bugs, features, todos, or anything else you need to get done. Tasks assigned to you will appear here.' => "Utilisez Maniphest pour traquer les bugs, les évolutions, les tâches, ou toutes autres choses nécessitants d'être effectuées. Les tâches assignées apparaîtront ici.",
 
 		  // src/applications/config/option/PhabricatorDeveloperConfigOptions.php:87
 		  'Use Normal HTTP Redirects' => null,
@@ -40603,7 +40603,7 @@ final class PhabricatorVeryWowEnglishTranslation
 
 		  // src/applications/diffusion/management/DiffusionRepositoryPoliciesManagementPanel.php:99
 		  // src/view/form/control/AphrontFormPolicyControl.php:78
-		  'Visible To' => null,
+		  'Visible To' => "Visible par",
 
 		  // src/applications/phurl/controller/PhabricatorPhurlURLViewController.php:87
 		  'Visit URL' => null,
@@ -40907,25 +40907,25 @@ final class PhabricatorVeryWowEnglishTranslation
 		  // src/applications/project/query/PhabricatorProjectSearchEngine.php:200
 		  // src/applications/spaces/query/PhabricatorSpacesNamespaceSearchEngine.php:112
 		  // src/applications/pholio/query/PholioMockSearchEngine.php:144
-		  'Welcome to %s' => null,
+		  'Welcome to %s' => "Bienvenue sur %s",
 
 		  // src/applications/audit/query/PhabricatorCommitSearchEngine.php:185
-		  'Welcome to Audit' => null,
+		  'Welcome to Audit' => "Bienvenue sur Audit",
 
 		  // src/applications/auth/controller/PhabricatorAuthOneTimeLoginController.php:162
 		  // src/applications/auth/controller/PhabricatorAuthRegisterController.php:494
 		  // src/applications/auth/controller/PhabricatorAuthRegisterController.php:506
 		  // src/applications/config/controller/PhabricatorConfigWelcomeController.php:344
-		  'Welcome to Phabricator' => null,
+		  'Welcome to Phabricator' => "Bienvenue sur Phabricator",
 
 		  // src/applications/auth/controller/PhabricatorAuthController.php:275
-		  'Welcome to Phabricator!' => null,
+		  'Welcome to Phabricator!' => "Bienvenue sur Phabricator!",
 
 		  // src/applications/people/storage/PhabricatorUser.php:634
 		  'Welcome to Phabricator!\n\n%s (%s) has created an account for you.\n\n  Username: %s\n\nTo login to Phabricator, follow this link and set a password:\n\n  %s\n\nAfter you have set a password, you can login in the future by going here:\n\n  %s\n' => null,
 
 		  // src/applications/phriction/controller/PhrictionDocumentController.php:42
-		  'Welcome to Phriction' => null,
+		  'Welcome to Phriction' => "Bienvenue sur Phriction",
 
 		  // src/applications/auth/controller/PhabricatorAuthFinishController.php:57
 		  'Welcome, %s. To complete the login process, provide your multi-factor credentials.' => null,
@@ -42221,20 +42221,20 @@ final class PhabricatorVeryWowEnglishTranslation
 		  'You have no accounts!' => null,
 
 		  // src/applications/home/controller/PhabricatorHomeMainController.php:271
-		  'You have no assigned tasks.' => null,
+		  'You have no assigned tasks.' => "Vous n'avez pas de tâche assignée.",
 
 		  // src/applications/phame/view/PhameDraftListView.php:74
 		  'You have no draft posts.' => null,
 
 		  // src/applications/settings/panel/PhabricatorExternalAccountsSettingsPanel.php:44
-		  'You have no linked accounts.' => null,
+		  'You have no linked accounts.' => "Vous n'avez pas de compte lié.",
 
 		  // src/applications/conpherence/controller/ConpherenceNotificationPanelController.php:75
-		  'You have no messages.' => null,
+		  'You have no messages.' => "Vous n'avez pas de message.",
 
 		  // src/applications/notification/controller/PhabricatorNotificationPanelController.php:28
 		  // src/applications/notification/query/PhabricatorNotificationSearchEngine.php:104
-		  'You have no notifications.' => null,
+		  'You have no notifications.' => "Vous n'avez pas de notification.",
 
 		  // src/applications/phortune/controller/PhortuneAccountViewController.php:228
 		  'You have no unpaid invoices.' => null,
